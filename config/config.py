@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "14065507"))
-API_HASH = getenv("API_HASH", "6628dfb7524ced6b536ea88cfb743878")
+API_ID = int(getenv("API_ID", "26540535"))
+API_HASH = getenv("API_HASH", "")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5296897168:AAHuGNf78aVAOmC-OWnMm-fk7K3xSxyBSNc")
+BOT_TOKEN = getenv("BOT_TOKEN", "6281529870:AAGVaBf114czkpSII405E-HUTCOwbFygu-o")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kontol:kontol@cluster0.rg9ig.mongodb.net/test?myFirstDatabase?retryWrites=true&w=majority")
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001708765292"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001954471490"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Tepthon Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6144471881").split())
+    map(int, getenv("OWNER_ID", "5909879446").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/sourcemass/Sourcer",
+    "https://github.com/rowes-star/Music-star",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -65,19 +65,19 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "Tepthon"
+    "CHANNEL_SUDO", "RQ_SF"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "𝑇𝑒𝑎𝑚 𝑇𝑒𝑝𝑡ℎ𝑜𝑛"
+    "YAFA_NAME", "RoWeS"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/Tepthon"
+   " YAFA_CHANNEL", "https://t.me/RQ_SF"
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "SUPPORT_CHANNEL", "https://t.me/RQ_SF"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "SUPPORT_GROUP", "https://t.me/RQ_V0"
 )  # رابط كروبك
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -144,7 +144,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AgC7aAgq6AivM3eqKLERAL3z6dZ2ESAUjMDjkPyhE-kg_2elHIUZVv8qQgnW3RAqsIhcXPu5YpkWl08Dd5sr4VBavJ9Wexf3Jtxil_LfOZBO9t4VoPfuofReRNs-4c1oeEV7nh3qOmR3kCKWJaVxcQ5R4OeTTR0_nLf-CxNIld-ya1OsDLX8V4HJIu8Q0YTE2hPsQn-XixVyu_nd4aElQCEEdM3F_WzwNv-pTvlBIdZQIsfdSXxUr37PnTEaVbrrR-RGXUZMQ8J2mV3qcruYHeIoKW7TG_PCflHP6a909vIKWkqvi5nrMSe-vxmpZ-P1GUYUI2eUoRtMOL79zzQovmlyAAAAATJs_7sA")
+STRING1 = getenv("STRING_SESSION", "BAAEmNMxLV6BYyC9ifwgU-3PhTLqFxXbaQiyN4X0_xaOBBeUsQN6rJ94Zhy1XNagSIx8eLK2D97SRICdQBy5kk19HrYjloHbIogYwVfRHVVn1IHxVMLT9bDIEyCVKAippLXzXK7BKKDHJOHUSOx2HTO3ksDnzjHo_ptCe7K88FaFCrGon5eH59TGC9GDDOtPt15VACeC8S4uNq9OU24P14qcl5TyzUt73Bc1KX319tOuCZc_1apHqX5_mxNTL8W58wmz-71hrzbpJTdNjzrCStiKSZYlsSQeC6dN_VseftGmpAWEPJeSBPT9AbOiwWXQ_mK3nT75ZHCgFXoxD91uziGTAAAAAWBBmpYA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -174,7 +174,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/f8ed377ff9c485f55b61b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/a0cadab64ca995484479f.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
